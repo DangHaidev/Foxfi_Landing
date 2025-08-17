@@ -18,7 +18,7 @@ const nav = () => {
                     </div>
                 </div>
                 <div>
-                    <ul className="flex gap-18 max-sm:hidden">
+                    <ul className="flex gap-18 max-[768px]:hidden">
                         <li>About</li>
                         <li>Features</li>
                         <li>Mission</li>

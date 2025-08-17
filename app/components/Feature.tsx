@@ -28,8 +28,8 @@ const Feature = () => {
                             height={270}
                         />
                     </div>
-                    <div className="mx-5">
-                        <div className="mb-5">
+                    <div className="mx-5 lg:grid-cols-2 lg:grid lg:gap-5 lg:mx-auto lg:max-w-[1312px]">
+                        <div className="max-sm:mb-5">
                             <div className="p-8 bg-gray-50">
                                 <div>
                                     <Image
@@ -44,7 +44,7 @@ const Feature = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mb-5">
+                        <div className="max-sm:mb-5">
                             <div className="p-8 bg-gray-50">
                                 <Image
                                     src="/assets/lock.png"
@@ -70,7 +70,7 @@ const Feature = () => {
                                 </h1>
                             </div>
                         </div>
-                        <div className="mb-5">
+                        <div className="max-sm:mb-5">
                             <div className="p-8 bg-gray-50">
                                 <Image
                                     src="/assets/lock.png"

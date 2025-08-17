@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <div>
             <div className="m-4 bg-gray-100 rounded-3xl">
-                <div className="p-8">
+                <div className="p-8 lg:flex lg:flex-row">
                     <div>
                         <div>
                             <button className="uppercase px-5 py-1.5 rounded-3xl bg-gray-200">
@@ -50,7 +50,8 @@ const Contact = () => {
                             alt="hinh5"
                             width={270}
                             height={265}
-                            className="mx-auto"
+                            // sizes="(min-width: 1024px) 610px"
+                            className="mx-auto lg:w-[610px]"
                         />
                     </div>
                 </div>
