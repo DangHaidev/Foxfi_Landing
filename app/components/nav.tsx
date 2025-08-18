@@ -25,8 +25,10 @@ const nav = () => {
                         <li>Community</li>
                     </ul>
                 </div>
-                <div className="bg-amber-600 rounded-4xl">
-                    <button className="py-3 px-5">Launch App</button>
+                <div>
+                    <button className="rounded-4xl px-[49px] py-3 bg-gradient-to-b from-[#FF9345] to-[#DD6735] text-white">
+                        Launch App
+                    </button>
                 </div>
             </div>
         </>

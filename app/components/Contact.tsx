@@ -3,15 +3,15 @@ import Image from 'next/image';
 const Contact = () => {
     return (
         <div>
-            <div className="m-4 bg-gray-100 rounded-3xl">
-                <div className="p-8 lg:flex lg:flex-row">
-                    <div>
+            <div className="m-4 lg:mx-auto bg-gray-100 rounded-3xl lg:max-w-[1312px]">
+                <div className="p-8 lg:flex lg:flex-row lg:overflow-hidden">
+                    <div className="lg:pt-16 lg:pl-14 lg:pr-[171px]">
                         <div>
                             <button className="uppercase px-5 py-1.5 rounded-3xl bg-gray-200">
                                 Contact us
                             </button>
                         </div>
-                        <div className="font-semibold text-3xl my-4">
+                        <div className="font-semibold text-3xl my-4 lg:text-5xl">
                             <h1>Come and Join Us</h1>
                         </div>
 
@@ -48,10 +48,10 @@ const Contact = () => {
                         <Image
                             src="/assets/hinh5.png"
                             alt="hinh5"
-                            width={270}
-                            height={265}
+                            width={610}
+                            height={610}
                             // sizes="(min-width: 1024px) 610px"
-                            className="mx-auto lg:w-[610px]"
+                            className="mx-auto lg:w-[461px] lg:scale-130"
                         />
                     </div>
                 </div>
