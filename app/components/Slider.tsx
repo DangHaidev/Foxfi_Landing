@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Slider = () => {
     return (
         <>
-            <div className="uppercase bg-blue-700 overflow-hidden">
+            <div className="uppercase bg-[#4179F9] overflow-hidden font-mono">
                 <div className="__slider text-white font-semibold text-7xl p-10 flex flex-row items-center justify-center ">
                     <div className="px-16">
                         <Image

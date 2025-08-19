@@ -2,7 +2,7 @@ import Image from 'next/image';
 const nav = () => {
     return (
         <>
-            <div className="flex justify-between items-center px-4 py-3">
+            <div className="flex justify-between items-center px-4 py-3 font-mono">
                 <div className="flex items-center gap-2">
                     <div>
                         <Image

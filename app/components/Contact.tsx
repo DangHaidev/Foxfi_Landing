@@ -3,15 +3,15 @@ import Image from 'next/image';
 const Contact = () => {
     return (
         <div>
-            <div className="m-4 lg:mx-auto bg-gray-100 rounded-3xl lg:max-w-[1312px]">
+            <div className="m-4 lg:mx-auto bg-[radial-gradient(circle_at_center,#D2E4FF,#D2E4FF)] rounded-3xl lg:max-w-[1312px]">
                 <div className="p-8 lg:flex lg:flex-row lg:overflow-hidden">
                     <div className="lg:pt-16 lg:pl-14 lg:pr-[171px]">
                         <div>
-                            <button className="uppercase px-5 py-1.5 rounded-3xl bg-gray-200">
+                            <button className="uppercase px-5 py-1.5 rounded-3xl bg-gray-200 tracking-[2.66px] ">
                                 Contact us
                             </button>
                         </div>
-                        <div className="font-semibold text-3xl my-4 lg:text-5xl">
+                        <div className="font-sans font-semibold text-3xl my-4 lg:text-5xl">
                             <h1>Come and Join Us</h1>
                         </div>
 

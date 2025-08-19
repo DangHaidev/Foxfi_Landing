@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 const InterSans = Inter({
-    variable: '--font-geist-sans',
+    variable: '--font-inter',
     subsets: ['latin'],
 });
 
@@ -37,7 +37,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}
+                className={`${InterSans.variable} ${poppins.variable} antialiased`}
             >
                 {children}
             </body>
