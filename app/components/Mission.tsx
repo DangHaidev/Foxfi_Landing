@@ -27,7 +27,7 @@ function Mission() {
 
     return (
         <div>
-            <div className="my-26">
+            <div className="my-26 px-4">
                 <div className="flex flex-col text-center mt-4 lg:max-w-[591px] lg:mx-auto">
                     <div className="">
                         <button className="py-1.5 px-5 bg-[#0D0D0D1A] rounded-2xl leading-[20px] tracking-[2.66px]">
@@ -66,9 +66,9 @@ function Mission() {
                                 <Image
                                     src="/assets/hinh1.png"
                                     alt="hinh1"
-                                    width={300}
-                                    height={230}
-                                    className="lg:w-[468px]"
+                                    width={468}
+                                    height={360}
+                                    className="max-lg:w-[320px]"
                                 />
                             </div>
                         </div>

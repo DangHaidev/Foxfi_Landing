@@ -59,8 +59,8 @@ const Feature = () => {
                             className="absolute bottom-25 -right-20 star coin"
                         />
                     </div>
-                    <div className="font-sans mx-5 lg:grid-cols-2 lg:grid lg:gap-5 lg:mx-auto lg:max-w-[1312px]">
-                        <div className="max-md:mb-5">
+                    <div className="font-sans px-4 mx-5 lg:grid-cols-2 lg:grid lg:gap-5 lg:mx-auto lg:max-w-[1312px]">
+                        <div className="max-lg:mb-5">
                             <div className="p-8 bg-[#FFFFFF80] rounded-2xl">
                                 <div className="lg:flex lg:flex-row lg:items-center">
                                     <Image
@@ -75,7 +75,7 @@ const Feature = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="max-md:mb-5">
+                        <div className="max-lg:mb-5">
                             <div className="p-8 bg-[#FFFFFF80] rounded-2xl">
                                 <div className="lg:flex lg:flex-row lg:items-center">
                                     <Image
@@ -91,7 +91,7 @@ const Feature = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="max-md:mb-5">
+                        <div className="max-lg:mb-5">
                             <div className="p-8 bg-[#FFFFFF80] rounded-2xl">
                                 <div className="lg:flex lg:flex-row lg:items-center">
                                     <Image
@@ -106,7 +106,7 @@ const Feature = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="max-md:mb-5">
+                        <div className="max-lg:mb-5">
                             <div className="p-8 bg-[#FFFFFF80] rounded-2xl">
                                 <div className="lg:flex lg:flex-row lg:items-center">
                                     <Image

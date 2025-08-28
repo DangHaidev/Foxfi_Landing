@@ -4,49 +4,49 @@ import Image from 'next/image';
 const Slider = () => {
     return (
         <>
-            <div className="uppercase bg-[#4179F9] overflow-hidden font-mono">
-                <div className="__slider text-white font-semibold text-7xl p-10 flex flex-row items-center justify-center ">
-                    <div className="px-16">
-                        <Image
-                            src="/assets/a.png"
-                            alt="loho"
-                            width={67}
-                            height={83}
-                        />
-                    </div>
+            <div className="uppercase overflow-hidden bg-[#4179F9] font-mono">
+                <div className="__slider text-white font-semibold py-13 text-7xl flex gap-20 items-center">
+                    <Image
+                        src="/assets/a.png"
+                        alt="loho"
+                        width={67}
+                        height={83}
+                    />
+
                     <div>
                         <h1>Secure</h1>
                     </div>
-                    <div className="px-16">
-                        <Image
-                            src="/assets/a.png"
-                            alt="loho"
-                            width={67}
-                            height={83}
-                        />
-                    </div>
+
+                    <Image
+                        src="/assets/a.png"
+                        alt="loho"
+                        width={67}
+                        height={83}
+                        className=""
+                    />
+
                     <div>
                         <h1>Transparent</h1>
                     </div>
-                    <div className="px-16">
-                        <Image
-                            src="/assets/a.png"
-                            alt="loho"
-                            width={67}
-                            height={83}
-                        />
-                    </div>
+
+                    <Image
+                        src="/assets/a.png"
+                        alt="loho"
+                        width={67}
+                        height={83}
+                    />
+
                     <div>
                         <h1>easy</h1>
                     </div>
-                    <div className="px-16">
-                        <Image
-                            src="/assets/a.png"
-                            alt="loho"
-                            width={67}
-                            height={83}
-                        />
-                    </div>
+
+                    <Image
+                        src="/assets/a.png"
+                        alt="loho"
+                        width={67}
+                        height={83}
+                    />
+
                     <div>
                         <h1>Secure</h1>
                     </div>

@@ -2,10 +2,10 @@ import React from 'react';
 import Image from 'next/image';
 const Contact = () => {
     return (
-        <div>
-            <div className="m-4 lg:mx-auto bg-[radial-gradient(circle_at_center,#D2E4FF,#D2E4FF)] rounded-3xl lg:max-w-[1312px]">
+        <div className="px-4 py-13">
+            <div className="lg:mx-auto bg-[radial-gradient(circle_at_center,#D2E4FF,#D2E4FF)] rounded-3xl lg:max-w-[1312px]">
                 <div className="p-8 lg:flex lg:flex-row lg:overflow-hidden">
-                    <div className="lg:pt-16 lg:pl-14 lg:pr-[171px]">
+                    <div className="lg:pt-16 lg:pl-10 lg:pr-[140px]">
                         <div>
                             <button className="uppercase px-5 py-1.5 rounded-3xl bg-gray-200 tracking-[2.66px] ">
                                 Contact us
@@ -21,24 +21,27 @@ const Contact = () => {
                                     <Image
                                         src="/assets/mage_x.png"
                                         alt="X"
-                                        width={24}
-                                        height={24}
+                                        width={56}
+                                        height={56}
+                                        className="max-sm:size-6"
                                     />
                                 </li>
                                 <li>
                                     <Image
                                         src="/assets/ic_baseline-discord.png"
                                         alt="X"
-                                        width={24}
-                                        height={24}
+                                        width={56}
+                                        height={56}
+                                        className="max-sm:size-6"
                                     />
                                 </li>
                                 <li>
                                     <Image
                                         src="/assets/mingcute_telegram-fill.png"
                                         alt="X"
-                                        width={24}
-                                        height={24}
+                                        width={56}
+                                        height={56}
+                                        className="max-sm:size-6"
                                     />
                                 </li>
                             </ul>
@@ -51,7 +54,7 @@ const Contact = () => {
                             width={610}
                             height={610}
                             // sizes="(min-width: 1024px) 610px"
-                            className="mx-auto lg:w-[461px] lg:scale-130"
+                            className="mx-auto"
                         />
                     </div>
                 </div>
