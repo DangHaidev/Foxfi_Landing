@@ -26,7 +26,7 @@ const nav = () => {
                     </ul>
                 </div>
                 <div>
-                    <button className="cursor-pointer rounded-4xl px-[49px] max-sm:px-5 py-3 bg-gradient-to-b from-[#FF9345] to-[#DD6735] text-white">
+                    <button className="cursor-pointer rounded-4xl px-[49px] max-sm:px-5 py-3 bg-gradient-to-b from-[#FF9345] to-[#DD6735] text-white hover:shadow-lg hover:shadow-amber-500/50">
                         Launch App
                     </button>
                 </div>

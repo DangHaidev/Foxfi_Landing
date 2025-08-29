@@ -185,9 +185,24 @@ function Mission() {
                             liquidity.
                         </p>
                     </div>
-                    <button className="bg-[#FFFFFF] rounded-3xl px-5 py-3 cursor-pointer">
+                    {/* <button className="bg-[#FFFFFF] rounded-3xl px-5 py-3 cursor-pointer  hover:before:bg-redborder-red-500 transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-red-500 before:transition-all before:duration-500 hover:text-white hover:shadow-red-500 hover:before:left-0 hover:before:w-full">
                         <span className="text-amber-700">View Document </span>
                         <span className="pr-4 pl-2">
+                            <Image
+                                src="/assets/muiten.png"
+                                alt="muiten"
+                                className="inline"
+                                width={21}
+                                height={20}
+                            />
+                        </span>
+                        <span className="relative z-10">Swipe</span>
+                    </button> */}
+                    <button className="bg-[#FFFFFF] rounded-3xl px-5 py-3 hover:before:bg-redborder-red-500 relative overflow-hidden shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-blue-200 before:transition-all before:duration-500 hover:text-white hover:shadow-blue-400 hover:before:left-0 hover:before:w-full">
+                        <span className="text-amber-700 hover:text-white hover:font-medium relative z-10">
+                            View Document{' '}
+                        </span>
+                        <span className="pr-4 pl-2 relative z-10">
                             <Image
                                 src="/assets/muiten.png"
                                 alt="muiten"

@@ -42,7 +42,7 @@ function Hero() {
                     </p>
                 </div>
                 <div>
-                    <button className="rounded-4xl px-[49px] py-3 bg-gradient-to-b from-[#FF9345] to-[#DD6735] text-white cursor-pointer">
+                    <button className="rounded-4xl px-[49px] py-3 bg-gradient-to-b from-[#FF9345] to-[#DD6735] text-white cursor-pointer duration-500 hover:scale-125">
                         Launch App
                     </button>
                 </div>
