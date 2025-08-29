@@ -16,7 +16,7 @@ const Contact = () => {
                         </div>
 
                         <div>
-                            <ul className="flex flex-row gap-4">
+                            <ul className="flex flex-row gap-4 cursor-pointer">
                                 <li>
                                     <Image
                                         src="/assets/mage_x.png"

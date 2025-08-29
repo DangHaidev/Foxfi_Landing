@@ -15,13 +15,13 @@ const Footer = () => {
                     <span>FOXFI</span>
                 </div>
 
-                <ul className="flex flex-row gap-4 md:gap-8 text-sm">
+                <ul className="flex flex-row gap-4 md:gap-8 text-sm cursor-pointer">
                     <li>Documents</li>
                     <li>Features</li>
                     <li>Community</li>
                 </ul>
 
-                <ul className="flex gap-4 text-xl">
+                <ul className="flex gap-4 text-xl cursor-pointer">
                     <li>
                         <Image
                             src="/assets/mage_x.png"

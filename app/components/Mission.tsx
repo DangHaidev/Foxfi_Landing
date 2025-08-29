@@ -185,9 +185,17 @@ function Mission() {
                             liquidity.
                         </p>
                     </div>
-                    <button className="bg-[#FFFFFF] rounded-3xl px-5 py-3">
-                        <span className="text-amber-700">View Document</span>
-                        <span className="pr-4 pl-2">{'>'}</span>
+                    <button className="bg-[#FFFFFF] rounded-3xl px-5 py-3 cursor-pointer">
+                        <span className="text-amber-700">View Document </span>
+                        <span className="pr-4 pl-2">
+                            <Image
+                                src="/assets/muiten.png"
+                                alt="muiten"
+                                className="inline"
+                                width={21}
+                                height={20}
+                            />
+                        </span>
                     </button>
                 </div>
             </div>
